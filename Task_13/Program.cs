@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите трехзначное число: ");
+﻿void numFinder(){
+Console.WriteLine("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number > 99 && number <= 999)
 {
@@ -11,5 +12,7 @@ else if (number > 999)
 }
 else
 {
-    Console.WriteLine("Введены некоректные данные! Введите трехзначное или более число!");
+    Console.WriteLine("Введены некорректные данные! Введите трехзначное или более число!");
 }
+}
+numFinder();
